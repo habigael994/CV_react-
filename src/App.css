@@ -4,30 +4,127 @@ body {
 
 }
  
+
+
+.navbar {
+
+background-color: #1e1e1e;
+
+}
+
+
 .main-presentation {
- text-align:center ;
- background-color: blue;
- height: 650px;
- padding: 20%;
+  
+  text-align:center ;
+  color: white;
+  background-color: darkblue;
+  background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../public/background.jpg)  ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding: 15%;
 }
 
-.main-about {
+.Services  {
 
-  background-color: #EEE;
+  background: #EEE;
+  height: 1000px;
+
+
 
 }
 
- button {
+.Banner {
+  height: 200px;
+  width: 100%;
+  background-image: url(../public/background.jpg);
+  
+}
 
-  background-color: #0d6efd ;
-  color: #EEE;
+.about-layout {
+
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-left:0;
+  padding-right:0 ;
  }
+
+.container {
+  padding: 2%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+
+}
+
+.container-fluid {
+
+  background-color: rgb(226, 225, 225);
+
+}
+
  
- a {
+
+ 
+
+
+.text-center {
+
+  background-color: #000000;
+
+}
+ 
+.footerElement {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+ .logoDiv {
+
+  width: 150px;
+
+ }
+
+.linkLogo {
+
+  width: 30px;
+  height: 30px;
+ 
+}
+ 
+a {
     color:#8b8787;
   }
 
-  a:hover {
+a:hover {
 
-    color: white;
+  color: white;
   }
+
+.badge {
+
+  color: #0d6efd  ;
+
+  }
+
+.text-body {
+
+  color: black;
+
+  }
+
+.middlefoot {
+
+  color: white;
+
+}
+
+.nav-link.active {
+
+ color: white;
+
+}
