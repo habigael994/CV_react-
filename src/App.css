@@ -1,21 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+/*Main components CSS*/
+
+
+
 body {
 
   background-color: #EEE;
 
 }
+
+
+
+
+
+
+
+.nav-button {
+
+   background: none;
+   color: #8b8787;
+   border: none;
+}
+
  
 
+ 
 
 .navbar {
 
-background-color: #1e1e1e;
-
+  background-color: #1e1e1e;
+  width: 100%;
+  z-index: 999;
 }
 
 
 .main-presentation {
   
-  text-align:center ;
   color: white;
   background-color: darkblue;
   background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../public/background.jpg)  ;
@@ -25,23 +56,7 @@ background-color: #1e1e1e;
   height: 650px;
   padding: 15%;
 }
-
-.Services  {
-
-  background: #EEE;
-  height: 1000px;
-
-
-
-}
-
-.Banner {
-  height: 200px;
-  width: 100%;
-  background-image: url(../public/background.jpg);
-  
-}
-
+   
 .about-layout {
 
   padding-top: 2%;
@@ -64,12 +79,7 @@ background-color: #1e1e1e;
 
 }
 
- 
-
- 
-
-
-.text-center {
+.Foot{
 
   background-color: #000000;
 
@@ -105,6 +115,26 @@ a:hover {
   color: white;
   }
 
+.services-title {
+
+  height: 300px;
+  padding: 2%;
+}
+
+.aboutHr {
+  
+  border: 1px solid #0d6efd ;
+
+
+}
+
+.titleHr {
+
+  border: 2px solid #0d6efd ;
+  width: 200px;
+
+}
+
 .badge {
 
   color: #0d6efd  ;
@@ -126,5 +156,209 @@ a:hover {
 .nav-link.active {
 
  color: white;
+
+}
+
+
+
+
+/*SERVICES CSS*/
+
+
+.Services  {
+
+  background: #EEE;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+
+}
+
+ 
+
+.Banner {
+  height: 300px;
+  min-width: 100%;
+  background-image: url(../public/background.jpg);
+   
+  
+  
+
+
+}
+
+.services-row {
+  margin-bottom: 100px;
+  min-width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.services-title {
+
+  height: 250px;
+  width: 100%;
+}
+
+.services-display1, .services-display2,  .services-display3 {
+  height: 460px;
+  min-width: 250px;
+  padding:4%;
+  background-color: white;
+  margin-bottom: 10px;
+   
+  
+}
+
+ 
+
+.services-logo {
+
+  width:20%;
+  height:20% ;
+
+
+}
+
+
+
+/*REALISATIONS CSS*/
+
+
+.realisations {
+
+  background: #EEE;
+  height:100% ;
+   width:100% ;
+
+
+}
+
+ 
+
+ 
+
+.real-title {
+
+  margin-top: 50px;
+  height:150px;
+  width: 100%;
+
+
+}
+
+.card-img-top {
+
+
+  height: 400px;
+  border: 1px solid rgba(0, 0, 0, .125);
+   
+  border-top-left-radius:10px ;
+  border-top-right-radius:10px ;
+   
+}
+
+
+.card-deck {
+  
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+   
+  
+}
+
+.card {
+  
+  margin-left: auto;
+  margin-right: auto;
+  min-width:30%;
+  border: 0;
+  background-color: transparent;
+   
+}
+
+
+
+.card-body {
+
+  border: 1px solid rgba(0, 0, 0, .125);
+  font-size: large;
+  text-align: center;
+  background-color: white;
+}
+
+
+
+
+.card-footer{
+
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-bottom-left-radius:10px ;
+  border-bottom-right-radius:10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #EEE;
+}
+
+.card-btn {
+
+    
+  font-size: large;
+
+}
+
+ 
+
+.services-display1 h2, .services-display2 h2,  .services-display3 h2 {
+
+  font-size: x-large;
+
+}
+
+/*TABLETTE*/
+
+@media screen and (max-width:980px)   {  
+ 
+/*SERVICES CSS*/
+
+
+  .services-display1, .services-display2,  .services-display3 {
+     
+    min-width: 210px;
+    
+  }
+
+
+
+
+/*REALISATIONS CSS*/
+
+
+ 
+
+
+.card-deck {
+  
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 440px; 
+  background-color: transparent;
+   
+}
+
+
 
 }

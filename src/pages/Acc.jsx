@@ -2,7 +2,7 @@ const Acc = () => {
     return (
 
             <main className='App-main'>
-            <article className='main-presentation'>
+            <article className='main-presentation text-center'>
             <h1>Bonjour, je suis John Doe</h1>
             <h2>Développeur web full stack</h2>
             <button type="button" class="btn btn-primary">En savoir plus</button>
@@ -13,7 +13,8 @@ const Acc = () => {
             <div className=' aboutContent container'>
                 <div className='row'>
                 <div className='col-sm'>
-                    <h2>À propos</h2>
+                    <h2 >À propos</h2>
+                    <hr className="aboutHr"/>
                     <p>Passioné par l'informatique et les nouvelles<br/> 
                     technologies, j'ai suivi une formation d'<strong>ntégrateur-<br/>
                     développeur web</strong> au CEF. Au cours de cette formation,<br/>
@@ -22,7 +23,7 @@ const Acc = () => {
                     <p>
                     Basé à Lyon, je suis en recherche d'une alternance au<br/>
                     seins d'une agence digital pour consolider ma formation<br/>
-                    de <strong>développeur full stack</strong>.<br/> 
+                    de <strong>développeur web full stack</strong>.<br/> 
                     </p>
                     <p>
                     J'accorde une attention particulière à la qualité du code<br/>
