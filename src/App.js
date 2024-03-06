@@ -279,18 +279,18 @@ function App() {
             <ul class="nav justify-content-end">
               <li class="nav-item">
               <button className='nav-button  nav-link' onClick={event=>{ setIsVisibleApp(true);  setIsVisibleApp1(false);setIsVisibleApp2(false);}}>
-                  {isVisibleApp ? 'Hide content' : 'Show content'}
+                  ACCUEIL
                 </button>
               </li>
               <li class="nav-item">
                 <button className='nav-button  nav-link' onClick={event=>{ setIsVisibleApp(false);  setIsVisibleApp1(true);setIsVisibleApp2(false);}}>
-                  {isVisibleApp1 ? 'Hide content' : 'Show content'}
+                  SERVICES
                 </button>
                   
               </li>
               <li class="nav-item">
                 <button className='nav-button  nav-link' onClick={event=>{ setIsVisibleApp(false); setIsVisibleApp1(false);  setIsVisibleApp2(true);  }}>
-                  {isVisibleApp1 ? 'Hide content' : 'Show content'}
+                  RÉALISATIONS 
                 </button>
               </li>
               <li class="nav-item">

@@ -33,7 +33,18 @@ body {
    border: none;
 }
 
- 
+.nav-button:focus {
+  border: none;
+  color:  #EEE;
+  outline: none; 
+}
+
+.nav-button:hover {
+
+  color: #EEE;
+
+
+}
 
  
 
