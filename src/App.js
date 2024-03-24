@@ -15,7 +15,7 @@ import React, { createContext, useState, useContext } from "react";
 
 
 
-function Info({isVisible,isVisible1,isVisible2}) {
+function Info({isVisible,isVisible1,isVisible2,isVisible3,isVisible4,isVisible5}) {
 
   
   
@@ -222,6 +222,16 @@ function Info({isVisible,isVisible1,isVisible2}) {
 
 )}
 
+{isVisible3 && (
+
+<div className='realisations'>
+          
+<div className="Banner"></div>
+<div className="real-title text-center">
+              <h1 className="text-center">BLOG</h1>
+              <p className="text-center">Retrouvez ici quelques articles sur le développement web.</p>
+              <hr className="titleHr" />
+</div>
 
 
 
@@ -231,12 +241,185 @@ function Info({isVisible,isVisible1,isVisible2}) {
 
 
 
+<div class="card-deck row row-cols-3 justify-content-between  ">
+  <div class="card  col-3 ">
+    <img class="card-img-top" src="../cdc.png" alt="Card image cap"></img>
+    <div class="card-body-blog">
+      <h5 class="card-title">Coder son site en HTLM/CSS</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <button type="button" class="card-btn-blog btn-primary btn-lg">Lire la suite</button>
+    </div>
+    <div class="card-footer-blog">
+      <small class="text-muted">Publié le 22 août 2022</small>
+    </div>
+  </div>
+
+  <div class="card  col-3 ">
+    <img class="card-img-top" src="../cdc.png" alt="Card image cap"></img>
+    <div class="card-body-blog">
+      <h5 class="card-title">Vendre ses produits sur le web</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <button type="button" class="card-btn-blog btn-primary btn-lg">Lire la suite</button>
+    </div>
+    <div class="card-footer-blog">
+      <small class="text-muted">Publié le 20 août 2022</small>
+    </div>
+  </div>
+
+  <div class="card  col-3 ">
+    <img class="card-img-top" src="../cdc.png" alt="Card image cap"></img>
+    <div class="card-body-blog">
+      <h5 class="card-title">Se positionner sur Google</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <button type="button" class="card-btn-blog btn-primary btn-lg">Lire la suite</button>
+    </div>
+    <div class="card-footer-blog">
+      <small class="text-muted">Publié le 1 août 2022</small>
+    </div>
+  </div>
+
+  <div class="card  col-3 ">
+    <img class="card-img-top" src="../cdc.png" alt="Card image cap"></img>
+    <div class="card-body-blog">
+      <h5 class="card-title">Coder en responsive design</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <button type="button" class="card-btn-blog btn-primary btn-lg">Lire la suite</button>
+    </div>
+    <div class="card-footer-blog">
+      <small class="text-muted">Publié le 31 juillet 2022</small>
+    </div>
+  </div>
+
+  <div class="card  col-3 ">
+    <img class="card-img-top" src="../cdc.png" alt="Card image cap"></img>
+    <div class="card-body-blog">
+      <h5 class="card-title">Techniques de référencement</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <button type="button" class="card-btn-blog btn-primary btn-lg">Lire la suite</button>
+    </div>
+    <div class="card-footer-blog">
+      <small class="text-muted">Publié le 30 juillet 2022</small>
+    </div>
+  </div>
+
+  <div class="card  col-3 ">
+    <img class="card-img-top" src="../cdc.png" alt="Card image cap"></img>
+    <div class="card-body-blog">
+      <h5 class="card-title">Apprendre à coder</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <button type="button" class="card-btn-blog btn-primary btn-lg">Lire la suite</button>
+    </div>
+    <div class="card-footer-blog">
+      <small class="text-muted">Publié le 12 juillet 2022</small>
+    </div>
+  </div>
+
+  
+  
+</div>
+
+
+
+
+</div>
+
+)}
+
+
+
+
+
+{isVisible4 && (
+
+
+ <div className='contact'>
+
+  <div className='contact-display container  '>
+
+   
+
+  <div className="contact-title col text-center row ">
+                        
+                     <div className='col'>
+                        <h1 className="text-center">PORTFOLIO</h1>
+                        <p className="text-center">Voici Quelques-unes de mes réalisations.</p>
+                        <hr className="titleHr" />
+                     </div>
+
+  </div>
 
 
 
 
 
 
+
+  
+  <div className='contact-row row  '>
+
+
+    
+    <form className='contact-form col  '>
+      <div className='right'>
+                        <h2>PORTFOLIO</h2>
+                        <hr className="contact-titlehr"/>
+                         
+      </div>
+      <div className="form-group">
+        <label for="exampleFormControlInput1"> </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+      </div>
+      <div className="form-group">
+        <label for="exampleFormControlInput1"> </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+      </div>
+      <div className="form-group">
+        <label for="exampleFormControlInput1"> </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+      </div>
+      <div className="form-group">
+        <label for="exampleFormControlInput1"> </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
+      </div>
+      <div className="form-group">
+        <label for="exampleFormControlTextarea1"> </label>
+        <textarea className="form-input" id="exampleFormControlTextarea1" rows="10"></textarea>
+      </div>
+      <div className='btn-form-div'>
+        <button type="button" class="btn-form btn btn-primary">Envoyer</button>
+      </div>
+    </form>
+
+
+   <div className='map-display col '>
+                  <div className='left'>
+                        <h2>PORTFOLIO</h2>
+                        <hr className="contact-titlehr"/>
+                        <p><img className='list-logo' src='../icons8-location-50.png'></img>14 Place la Folette , Rue Paul Eluard 97420 Le Port, La Réunion <br/> 
+                         <img className='list-logo' src='../icons8-phone-24.png'></img>0692 37 38 39</p>
+
+                  </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.4458454460473!2d55.3016497112988!3d-20.934603280610727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21828887f136fee3%3A0xa194666c14b91c2!2s14%20Pl.%20la%20Folette%2C%20Le%20Port%2097420%2C%20R%C3%A9union!5e0!3m2!1sen!2sus!4v1710502296609!5m2!1sen!2sus" className='contact-map'  ></iframe>
+   
+  </div>
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+)}
+
+{isVisible5 && (
+
+
+<h1>zzzzzzzzzzzzzz</h1>
+
+
+)}
 
  </div>
   );
@@ -261,7 +444,9 @@ function App() {
   const [isVisibleApp, setIsVisibleApp] = useState(true);
   const [isVisibleApp1, setIsVisibleApp1] = useState(false);
   const [isVisibleApp2, setIsVisibleApp2] = useState(false);
-  
+  const [isVisibleApp3, setIsVisibleApp3] = useState(false);
+  const [isVisibleApp4,setIsVisibleApp4] = useState(false);
+  const [isVisibleApp5,setIsVisibleApp5] = useState(false);
 
   
 
@@ -278,26 +463,60 @@ function App() {
             <ul class="navbar-nav mr-auto"></ul>
             <ul class="nav justify-content-end">
               <li class="nav-item">
-              <button className='nav-button  nav-link' onClick={event=>{ setIsVisibleApp(true);  setIsVisibleApp1(false);setIsVisibleApp2(false);}}>
+              <button className='nav-button  nav-link' onClick={event=>{ 
+                setIsVisibleApp(true);
+                  setIsVisibleApp1(false);
+                  setIsVisibleApp2(false);
+                  setIsVisibleApp3(false);
+                  setIsVisibleApp4(false); 
+                  setIsVisibleApp5(false);}}>
                   ACCUEIL
                 </button>
               </li>
               <li class="nav-item">
-                <button className='nav-button  nav-link' onClick={event=>{ setIsVisibleApp(false);  setIsVisibleApp1(true);setIsVisibleApp2(false);}}>
+                <button className='nav-button  nav-link' onClick={event=>{ 
+                  setIsVisibleApp(false);
+                    setIsVisibleApp1(true);
+                    setIsVisibleApp2(false);
+                    setIsVisibleApp3(false);
+                    setIsVisibleApp4(false);
+                    setIsVisibleApp5(false); }}>
                   SERVICES
                 </button>
                   
               </li>
               <li class="nav-item">
-                <button className='nav-button  nav-link' onClick={event=>{ setIsVisibleApp(false); setIsVisibleApp1(false);  setIsVisibleApp2(true);  }}>
+                <button className='nav-button  nav-link' onClick={event=>{ 
+                  setIsVisibleApp(false);
+                   setIsVisibleApp1(false);
+                     setIsVisibleApp2(true);
+                     setIsVisibleApp3(false);
+                     setIsVisibleApp4(false); 
+                     setIsVisibleApp5(false);  }}>
                   RÉALISATIONS 
                 </button>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
+                <button className='nav-button  nav-link' onClick={event=>{ 
+                  setIsVisibleApp(false);
+                   setIsVisibleApp1(false);
+                     setIsVisibleApp2(false);
+                     setIsVisibleApp3(true);
+                     setIsVisibleApp4(false);
+                     setIsVisibleApp5(false);   }}>
+                  BLOG
+                </button>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ME CONTACTER</a>
+                <button class="nav-button nav-link" onClick={event=>{ 
+                  setIsVisibleApp(false);
+                   setIsVisibleApp1(false);
+                     setIsVisibleApp2(false);
+                     setIsVisibleApp3(false);
+                     setIsVisibleApp4(true); 
+                     setIsVisibleApp5(false);}}>
+                  ME CONTACTER
+                </button>
               </li>
             </ul>
           </div>
@@ -321,10 +540,20 @@ function App() {
     {isVisibleApp2 && (
          <Info isVisible2={true}/>
          )}
+    
+    {isVisibleApp3 && (
+         <Info isVisible3={true}/>
+         )}
 
-
-
-
+    {isVisibleApp4 && (
+         <Info isVisible4={true}/>
+         
+        )}
+    {isVisibleApp5 && (
+         <Info isVisible5={true}/>
+         
+        )}
+  
 
         <Routes>
           
@@ -337,88 +566,118 @@ function App() {
   
   <div class="container-fluid p-4">
     
-    <div class=" footerElement row   justify-content-around  n ">
-      <div className='row '>
-        <div class="col-sm ">
-          <h5 class="text-uppercase">John Doe</h5>
+    <div class=" footerElement    justify-content-between ">
+      <div className='footer-row row '>
+        <div className="col-sm footer-col ">
+          <h5 className="text-uppercase">John Doe</h5>
 
-          <ul class="list-unstyled mb-0">  
+          <ul className="list-unstyled mb-0">  
             <li >
               <p >40 Rue Laura Diebold<br/>69009 Lyon, France<br/>Téléphone : 06 20 30 40 50</p>
             </li>
           </ul>
           <div className="logoDiv d-flex justify-content-around"> 
-            <a href=''><img className='linkLogo' src='../github.png' alt='nnn'></img></a>
-            <a href=''><img className='linkLogo' src='../twitter.png' alt='nnn'></img></a>
-            <a href=''><img className='linkLogo' src='../linkedin.png' alt='nnn'></img></a>
+            <a href=''><img className='linkLogo' src='../github.png' alt='Github link'></img></a>
+            <a href=''><img className='linkLogo' src='../twitter.png' alt='Twitter link'></img></a>
+            <a href=''><img className='linkLogo' src='../linkedin.png' alt='Linkedin link'></img></a>
           </div>
         </div>
         
-        <div class="col-sm">
-          <h5 class="text-uppercase">Liens utiles</h5>
+        <div className="footer-col col-sm">
+          <h5 className="text-uppercase">Liens utiles</h5>
 
-          <ul class="list-unstyled mb-0">
+          <ul className="list-unstyled mb-0">
             <li>
-              <span class="badge">></span><Link to="/" class="text-body">Acceuil</Link>
+              <span class="badge">></span><button class="footer-text-body" onClick={event=>{
+                setIsVisibleApp(true);  
+                setIsVisibleApp1(false);
+                setIsVisibleApp2(false);
+                setIsVisibleApp3(false);
+                setIsVisibleApp4(false);
+                setIsVisibleApp5(false);}}>Acceuil</button>
             </li>
             <li>
-              <span class="badge">></span><a href="#!" class="text-body">À propos</a>
+              <span class="badge">></span><button class="footer-text-body" onClick={event=>{ 
+                setIsVisibleApp(true);
+                setIsVisibleApp1(false);
+                setIsVisibleApp2(false);
+                setIsVisibleApp3(false);
+                setIsVisibleApp4(false)
+                setIsVisibleApp5(false);;}}>À propos</button>
             </li>
             <li>
-              <span class="badge">></span><Link to="/Services" class="text-body">Services</Link>
+              <span class="badge">></span><button class="footer-text-body" onClick={event=>{ 
+                setIsVisibleApp(false);
+                setIsVisibleApp1(false);
+                setIsVisibleApp2(true);
+                setIsVisibleApp3(false);
+                setIsVisibleApp4(false);
+                setIsVisibleApp5(false);  }}>Services</button>
             </li>
             <li>
-              <span class="badge">></span><a href="#!" class="text-body">Me contacter</a>
+              <span class="badge">></span><button class="footer-text-body" onClick={event=>{
+                 setIsVisibleApp(false);
+                 setIsVisibleApp1(false);
+                 setIsVisibleApp2(false);
+                 setIsVisibleApp3(false);
+                 setIsVisibleApp4(true);
+                 setIsVisibleApp5(false); }}>Me contacter</button>
             </li>
             <li>
-              <span class="badge">></span><a href="#!" class="text-body">Mentions légales</a>
+              <span class="badge">></span><button class="footer-text-body" onClick={event=>{ 
+                setIsVisibleApp(false);
+                setIsVisibleApp1(false);
+                setIsVisibleApp2(false);
+                setIsVisibleApp3(false);
+                setIsVisibleApp4(false);
+                setIsVisibleApp5(true); }}>Mentions légales</button>
             </li>
           </ul>
         </div>
-      </div>
+     
        
-      <div className='row '>
-        <div class="col-sm">
-          <h5 class="text-uppercase">Mes derniéres réalisations</h5>
+       
+        <div className="footer-col col-sm ">
+          <h5 className="text-uppercase">Mes derniéres réalisations</h5>
 
-          <ul class="list-unstyled mb-0">
+          <ul className="list-unstyled mb-0">
             <li>
-              <span class="badge">></span><a href="#!" class="text-body">Fresh food</a>
+              <span className="badge">></span><a href="#!" class="text-body">Fresh food</a>
             </li>
             <li>
-              <span class="badge">></span><a href="#!" class="text-body">Restaurant Akira</a>
+              <span className="badge">></span><a href="#!" class="text-body">Restaurant Akira</a>
             </li>
             <li>
-              <span class="badge">></span><a href="#!" class="text-body">Espace bien-être</a>
+              <span className="badge">></span><a href="#!" class="text-body">Espace bien-être</a>
             </li>
           </ul>
         </div>
       
-        <div class="col-sm">
-          <h5 class="text-uppercase  ">Mes derniers articles</h5>
+        <div className="footer-col col-sm">
+          <h5 className="text-uppercase  ">Mes derniers articles</h5>
 
-          <ul class="list-unstyled mb-0">
+          <ul className="list-unstyled mb-0">
             <li>
-              <span class="badge">></span><a href="#!" class="text-body">Coder son site en HTML/CSS</a>
+              <span className="badge">></span><a href="#!" class="text-body">Coder son site en HTML/CSS</a>
             </li>
             <li>
-              <span class="badge">></span><a href="#!" class="text-body">Vendre ses produits sur le web</a>
+              <span className="badge">></span><a href="#!" class="text-body">Vendre ses produits sur le web</a>
             </li>
             <li>
-            <span class="badge">></span><a href="#!" class="text-body">Se positionner sur Google</a>
+            <span className="badge">></span><a href="#!" class="text-body">Se positionner sur Google</a>
             </li>
           </ul>
         </div>
-      </div>
+       
     </div>
-   
+    </div>
   </div>
  
 
 
-  <div class="Foot text-center p-3"  >
+  <div className="Foot text-center p-3"  >
    
-    <a class="middlefoot text-body" href="https://mdbootstrap.com/">© Designed by John Doe</a>
+    <a className="middlefoot text-body" href="https://mdbootstrap.com/">© Designed by John Doe</a>
   </div>
    
 </footer>
